@@ -1,11 +1,11 @@
 {
-    "name": "thag/kba-xkfz-dto",
+    "name": "maximkuehne/kba-xkfz-dto",
     "description": "This is my package kba-xkfz-dto",
     "keywords": [
         "THAG",
         "kba-xkfz-dto"
     ],
-    "homepage": "https://github.com/thag/kba-xkfz-dto",
+    "homepage": "https://github.com/MaximKuehne/kba-xkfz-dto",
     "license": "MIT",
     "authors": [
         {

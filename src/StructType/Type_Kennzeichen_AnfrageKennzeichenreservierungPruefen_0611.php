@@ -9,8 +9,9 @@ use WsdlToPhp\PackageBase\AbstractStructBase;
 /**
  * This class stands for
  * Type.Kennzeichen.AnfrageKennzeichenreservierungPruefen.0611 StructType
- * @subpackage Structs
+ *
  * @date 2024-05-13
+ *
  * @codeVersion 5.9
  */
 #[\AllowDynamicProperties]
@@ -18,37 +19,36 @@ class Type_Kennzeichen_AnfrageKennzeichenreservierungPruefen_0611 extends Abstra
 {
     /**
      * The pruefungKennzeichenreservierung
-     * @var \THAG\XKfz\StructType\PruefungKennzeichenreservierung|null
      */
     public ?\THAG\XKfz\StructType\PruefungKennzeichenreservierung $pruefungKennzeichenreservierung = null;
+
     /**
      * Constructor method for
      * Type.Kennzeichen.AnfrageKennzeichenreservierungPruefen.0611
+     *
      * @uses Type_Kennzeichen_AnfrageKennzeichenreservierungPruefen_0611::setPruefungKennzeichenreservierung()
-     * @param \THAG\XKfz\StructType\PruefungKennzeichenreservierung $pruefungKennzeichenreservierung
      */
     public function __construct(?\THAG\XKfz\StructType\PruefungKennzeichenreservierung $pruefungKennzeichenreservierung = null)
     {
         $this
             ->setPruefungKennzeichenreservierung($pruefungKennzeichenreservierung);
     }
+
     /**
      * Get pruefungKennzeichenreservierung value
-     * @return \THAG\XKfz\StructType\PruefungKennzeichenreservierung|null
      */
     public function getPruefungKennzeichenreservierung(): ?\THAG\XKfz\StructType\PruefungKennzeichenreservierung
     {
         return $this->pruefungKennzeichenreservierung;
     }
+
     /**
      * Set pruefungKennzeichenreservierung value
-     * @param \THAG\XKfz\StructType\PruefungKennzeichenreservierung $pruefungKennzeichenreservierung
-     * @return \THAG\XKfz\StructType\Type_Kennzeichen_AnfrageKennzeichenreservierungPruefen_0611
      */
     public function setPruefungKennzeichenreservierung(?\THAG\XKfz\StructType\PruefungKennzeichenreservierung $pruefungKennzeichenreservierung = null): self
     {
         $this->pruefungKennzeichenreservierung = $pruefungKennzeichenreservierung;
-        
+
         return $this;
     }
 }

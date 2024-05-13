@@ -28,8 +28,8 @@ $options
 $generator = new \WsdlToPhp\PackageGenerator\Generator\Generator($options);
 
 $generator->setOptionAddComments([
-    "date" => date("Y-m-d"),
-    "codeVersion" => $version,
+    'date' => date('Y-m-d'),
+    'codeVersion' => $version,
 ]);
 
 // Package generation

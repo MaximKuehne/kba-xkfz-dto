@@ -8,8 +8,9 @@ use WsdlToPhp\PackageBase\AbstractStructBase;
 
 /**
  * This class stands for GDV_ITD_060.ListeVkzProduktionsauftrag StructType
- * @subpackage Structs
+ *
  * @date 2024-05-13
+ *
  * @codeVersion 5.9
  */
 #[\AllowDynamicProperties]
@@ -17,36 +18,35 @@ class GDV_ITD_060_ListeVkzProduktionsauftrag extends AbstractStructBase
 {
     /**
      * The VkzProduktionsauftrag
-     * @var \THAG\XKfz\StructType\GDV_ITD_060_VkzProduktionsauftrag|null
      */
     public ?\THAG\XKfz\StructType\GDV_ITD_060_VkzProduktionsauftrag $VkzProduktionsauftrag = null;
+
     /**
      * Constructor method for GDV_ITD_060.ListeVkzProduktionsauftrag
+     *
      * @uses GDV_ITD_060_ListeVkzProduktionsauftrag::setVkzProduktionsauftrag()
-     * @param \THAG\XKfz\StructType\GDV_ITD_060_VkzProduktionsauftrag $vkzProduktionsauftrag
      */
     public function __construct(?\THAG\XKfz\StructType\GDV_ITD_060_VkzProduktionsauftrag $vkzProduktionsauftrag = null)
     {
         $this
             ->setVkzProduktionsauftrag($vkzProduktionsauftrag);
     }
+
     /**
      * Get VkzProduktionsauftrag value
-     * @return \THAG\XKfz\StructType\GDV_ITD_060_VkzProduktionsauftrag|null
      */
     public function getVkzProduktionsauftrag(): ?\THAG\XKfz\StructType\GDV_ITD_060_VkzProduktionsauftrag
     {
         return $this->VkzProduktionsauftrag;
     }
+
     /**
      * Set VkzProduktionsauftrag value
-     * @param \THAG\XKfz\StructType\GDV_ITD_060_VkzProduktionsauftrag $vkzProduktionsauftrag
-     * @return \THAG\XKfz\StructType\GDV_ITD_060_ListeVkzProduktionsauftrag
      */
     public function setVkzProduktionsauftrag(?\THAG\XKfz\StructType\GDV_ITD_060_VkzProduktionsauftrag $vkzProduktionsauftrag = null): self
     {
         $this->VkzProduktionsauftrag = $vkzProduktionsauftrag;
-        
+
         return $this;
     }
 }

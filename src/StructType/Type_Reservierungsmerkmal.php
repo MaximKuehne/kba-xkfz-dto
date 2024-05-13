@@ -8,8 +8,9 @@ use WsdlToPhp\PackageBase\AbstractStructBase;
 
 /**
  * This class stands for Type.Reservierungsmerkmal StructType
- * @subpackage Structs
+ *
  * @date 2024-05-13
+ *
  * @codeVersion 5.9
  */
 #[\AllowDynamicProperties]
@@ -17,20 +18,19 @@ class Type_Reservierungsmerkmal extends AbstractStructBase
 {
     /**
      * The code
-     * @var \THAG\XKfz\StructType\Code_Reservierungsmerkmal|null
      */
     public ?\THAG\XKfz\StructType\Code_Reservierungsmerkmal $code = null;
+
     /**
      * The nichtGelisteterWert
-     * @var string|null
      */
     public ?string $nichtGelisteterWert = null;
+
     /**
      * Constructor method for Type.Reservierungsmerkmal
+     *
      * @uses Type_Reservierungsmerkmal::setCode()
      * @uses Type_Reservierungsmerkmal::setNichtGelisteterWert()
-     * @param \THAG\XKfz\StructType\Code_Reservierungsmerkmal $code
-     * @param string $nichtGelisteterWert
      */
     public function __construct(?\THAG\XKfz\StructType\Code_Reservierungsmerkmal $code = null, ?string $nichtGelisteterWert = null)
     {
@@ -38,42 +38,40 @@ class Type_Reservierungsmerkmal extends AbstractStructBase
             ->setCode($code)
             ->setNichtGelisteterWert($nichtGelisteterWert);
     }
+
     /**
      * Get code value
-     * @return \THAG\XKfz\StructType\Code_Reservierungsmerkmal|null
      */
     public function getCode(): ?\THAG\XKfz\StructType\Code_Reservierungsmerkmal
     {
         return $this->code;
     }
+
     /**
      * Set code value
-     * @param \THAG\XKfz\StructType\Code_Reservierungsmerkmal $code
-     * @return \THAG\XKfz\StructType\Type_Reservierungsmerkmal
      */
     public function setCode(?\THAG\XKfz\StructType\Code_Reservierungsmerkmal $code = null): self
     {
         $this->code = $code;
-        
+
         return $this;
     }
+
     /**
      * Get nichtGelisteterWert value
-     * @return string|null
      */
     public function getNichtGelisteterWert(): ?string
     {
         return $this->nichtGelisteterWert;
     }
+
     /**
      * Set nichtGelisteterWert value
-     * @param string $nichtGelisteterWert
-     * @return \THAG\XKfz\StructType\Type_Reservierungsmerkmal
      */
     public function setNichtGelisteterWert(?string $nichtGelisteterWert = null): self
     {
         $this->nichtGelisteterWert = $nichtGelisteterWert;
-        
+
         return $this;
     }
 }

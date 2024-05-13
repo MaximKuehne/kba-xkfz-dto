@@ -9,8 +9,9 @@ use WsdlToPhp\PackageBase\AbstractStructBase;
 /**
  * This class stands for vorsystem.antragausserbetriebsetzunggrosskunde.0708
  * StructType
- * @subpackage Structs
+ *
  * @date 2024-05-13
+ *
  * @codeVersion 5.9
  */
 #[\AllowDynamicProperties]

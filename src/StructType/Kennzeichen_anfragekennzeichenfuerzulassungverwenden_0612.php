@@ -9,8 +9,9 @@ use WsdlToPhp\PackageBase\AbstractStructBase;
 /**
  * This class stands for kennzeichen.anfragekennzeichenfuerzulassungverwenden.0612
  * StructType
- * @subpackage Structs
+ *
  * @date 2024-05-13
+ *
  * @codeVersion 5.9
  */
 #[\AllowDynamicProperties]

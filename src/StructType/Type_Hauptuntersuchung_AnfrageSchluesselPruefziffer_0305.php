@@ -9,8 +9,9 @@ use WsdlToPhp\PackageBase\AbstractStructBase;
 /**
  * This class stands for Type.Hauptuntersuchung.AnfrageSchluesselPruefziffer.0305
  * StructType
- * @subpackage Structs
+ *
  * @date 2024-05-13
+ *
  * @codeVersion 5.9
  */
 #[\AllowDynamicProperties]
@@ -18,36 +19,35 @@ class Type_Hauptuntersuchung_AnfrageSchluesselPruefziffer_0305 extends AbstractS
 {
     /**
      * The schluesselPruefziffer
-     * @var \THAG\XKfz\StructType\SchluesselPruefziffer|null
      */
     public ?\THAG\XKfz\StructType\SchluesselPruefziffer $schluesselPruefziffer = null;
+
     /**
      * Constructor method for Type.Hauptuntersuchung.AnfrageSchluesselPruefziffer.0305
+     *
      * @uses Type_Hauptuntersuchung_AnfrageSchluesselPruefziffer_0305::setSchluesselPruefziffer()
-     * @param \THAG\XKfz\StructType\SchluesselPruefziffer $schluesselPruefziffer
      */
     public function __construct(?\THAG\XKfz\StructType\SchluesselPruefziffer $schluesselPruefziffer = null)
     {
         $this
             ->setSchluesselPruefziffer($schluesselPruefziffer);
     }
+
     /**
      * Get schluesselPruefziffer value
-     * @return \THAG\XKfz\StructType\SchluesselPruefziffer|null
      */
     public function getSchluesselPruefziffer(): ?\THAG\XKfz\StructType\SchluesselPruefziffer
     {
         return $this->schluesselPruefziffer;
     }
+
     /**
      * Set schluesselPruefziffer value
-     * @param \THAG\XKfz\StructType\SchluesselPruefziffer $schluesselPruefziffer
-     * @return \THAG\XKfz\StructType\Type_Hauptuntersuchung_AnfrageSchluesselPruefziffer_0305
      */
     public function setSchluesselPruefziffer(?\THAG\XKfz\StructType\SchluesselPruefziffer $schluesselPruefziffer = null): self
     {
         $this->schluesselPruefziffer = $schluesselPruefziffer;
-        
+
         return $this;
     }
 }

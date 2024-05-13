@@ -8,8 +8,9 @@ use WsdlToPhp\PackageBase\AbstractStructBase;
 
 /**
  * This class stands for ZulassungsbescheinigungTeil1ZGTyp StructType
- * @subpackage Structs
+ *
  * @date 2024-05-13
+ *
  * @codeVersion 5.9
  */
 #[\AllowDynamicProperties]
@@ -17,61 +18,62 @@ class ZulassungsbescheinigungTeil1ZGTyp extends AbstractStructBase
 {
     /**
      * The NummerZulBeschTeil1
-     * @var string|null
      */
     public ?string $NummerZulBeschTeil1 = null;
+
     /**
      * The HinweisRueckgabeEinziehung
-     * @var string|null
      */
     public ?string $HinweisRueckgabeEinziehung = null;
+
     /**
      * The ZeitpunktAusfertigungZulBeschTeil1
-     * @var string|null
      */
     public ?string $ZeitpunktAusfertigungZulBeschTeil1 = null;
+
     /**
      * The DatumRueckgabeEinziehung
-     * @var string|null
      */
     public ?string $DatumRueckgabeEinziehung = null;
+
     /**
      * The HinweisAusstellungZweitschrift
-     * @var bool|null
      */
     public ?bool $HinweisAusstellungZweitschrift = null;
+
     /**
      * The DatumAusstellungZweitschrift
-     * @var string|null
      */
     public ?string $DatumAusstellungZweitschrift = null;
+
     /**
      * The ZeitpunktEintragungAusserbetriebsetzungZulBeschTeil1
-     * @var string|null
      */
     public ?string $ZeitpunktEintragungAusserbetriebsetzungZulBeschTeil1 = null;
+
     /**
      * The NaechsteHauptuntersuchung
-     * @var string|null
      */
     public ?string $NaechsteHauptuntersuchung = null;
+
     /**
      * The NaechsteSicherheitspruefung
-     * @var string|null
      */
     public ?string $NaechsteSicherheitspruefung = null;
+
     /**
      * The NaechsteAbgasuntersuchung
-     * @var string|null
      */
     public ?string $NaechsteAbgasuntersuchung = null;
+
     /**
      * The DruckstuecknummerZB1
-     * @var string|null
      */
     public ?string $DruckstuecknummerZB1 = null;
+
     /**
      * Constructor method for ZulassungsbescheinigungTeil1ZGTyp
+     *
      * @uses ZulassungsbescheinigungTeil1ZGTyp::setNummerZulBeschTeil1()
      * @uses ZulassungsbescheinigungTeil1ZGTyp::setHinweisRueckgabeEinziehung()
      * @uses ZulassungsbescheinigungTeil1ZGTyp::setZeitpunktAusfertigungZulBeschTeil1()
@@ -83,17 +85,6 @@ class ZulassungsbescheinigungTeil1ZGTyp extends AbstractStructBase
      * @uses ZulassungsbescheinigungTeil1ZGTyp::setNaechsteSicherheitspruefung()
      * @uses ZulassungsbescheinigungTeil1ZGTyp::setNaechsteAbgasuntersuchung()
      * @uses ZulassungsbescheinigungTeil1ZGTyp::setDruckstuecknummerZB1()
-     * @param string $nummerZulBeschTeil1
-     * @param string $hinweisRueckgabeEinziehung
-     * @param string $zeitpunktAusfertigungZulBeschTeil1
-     * @param string $datumRueckgabeEinziehung
-     * @param bool $hinweisAusstellungZweitschrift
-     * @param string $datumAusstellungZweitschrift
-     * @param string $zeitpunktEintragungAusserbetriebsetzungZulBeschTeil1
-     * @param string $naechsteHauptuntersuchung
-     * @param string $naechsteSicherheitspruefung
-     * @param string $naechsteAbgasuntersuchung
-     * @param string $druckstuecknummerZB1
      */
     public function __construct(?string $nummerZulBeschTeil1 = null, ?string $hinweisRueckgabeEinziehung = null, ?string $zeitpunktAusfertigungZulBeschTeil1 = null, ?string $datumRueckgabeEinziehung = null, ?bool $hinweisAusstellungZweitschrift = null, ?string $datumAusstellungZweitschrift = null, ?string $zeitpunktEintragungAusserbetriebsetzungZulBeschTeil1 = null, ?string $naechsteHauptuntersuchung = null, ?string $naechsteSicherheitspruefung = null, ?string $naechsteAbgasuntersuchung = null, ?string $druckstuecknummerZB1 = null)
     {
@@ -110,213 +101,202 @@ class ZulassungsbescheinigungTeil1ZGTyp extends AbstractStructBase
             ->setNaechsteAbgasuntersuchung($naechsteAbgasuntersuchung)
             ->setDruckstuecknummerZB1($druckstuecknummerZB1);
     }
+
     /**
      * Get NummerZulBeschTeil1 value
-     * @return string|null
      */
     public function getNummerZulBeschTeil1(): ?string
     {
         return $this->NummerZulBeschTeil1;
     }
+
     /**
      * Set NummerZulBeschTeil1 value
-     * @param string $nummerZulBeschTeil1
-     * @return \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp
      */
     public function setNummerZulBeschTeil1(?string $nummerZulBeschTeil1 = null): self
     {
         $this->NummerZulBeschTeil1 = $nummerZulBeschTeil1;
-        
+
         return $this;
     }
+
     /**
      * Get HinweisRueckgabeEinziehung value
-     * @return string|null
      */
     public function getHinweisRueckgabeEinziehung(): ?string
     {
         return $this->HinweisRueckgabeEinziehung;
     }
+
     /**
      * Set HinweisRueckgabeEinziehung value
-     * @param string $hinweisRueckgabeEinziehung
-     * @return \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp
      */
     public function setHinweisRueckgabeEinziehung(?string $hinweisRueckgabeEinziehung = null): self
     {
         $this->HinweisRueckgabeEinziehung = $hinweisRueckgabeEinziehung;
-        
+
         return $this;
     }
+
     /**
      * Get ZeitpunktAusfertigungZulBeschTeil1 value
-     * @return string|null
      */
     public function getZeitpunktAusfertigungZulBeschTeil1(): ?string
     {
         return $this->ZeitpunktAusfertigungZulBeschTeil1;
     }
+
     /**
      * Set ZeitpunktAusfertigungZulBeschTeil1 value
-     * @param string $zeitpunktAusfertigungZulBeschTeil1
-     * @return \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp
      */
     public function setZeitpunktAusfertigungZulBeschTeil1(?string $zeitpunktAusfertigungZulBeschTeil1 = null): self
     {
         $this->ZeitpunktAusfertigungZulBeschTeil1 = $zeitpunktAusfertigungZulBeschTeil1;
-        
+
         return $this;
     }
+
     /**
      * Get DatumRueckgabeEinziehung value
-     * @return string|null
      */
     public function getDatumRueckgabeEinziehung(): ?string
     {
         return $this->DatumRueckgabeEinziehung;
     }
+
     /**
      * Set DatumRueckgabeEinziehung value
-     * @param string $datumRueckgabeEinziehung
-     * @return \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp
      */
     public function setDatumRueckgabeEinziehung(?string $datumRueckgabeEinziehung = null): self
     {
         $this->DatumRueckgabeEinziehung = $datumRueckgabeEinziehung;
-        
+
         return $this;
     }
+
     /**
      * Get HinweisAusstellungZweitschrift value
-     * @return bool|null
      */
     public function getHinweisAusstellungZweitschrift(): ?bool
     {
         return $this->HinweisAusstellungZweitschrift;
     }
+
     /**
      * Set HinweisAusstellungZweitschrift value
-     * @param bool $hinweisAusstellungZweitschrift
-     * @return \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp
      */
     public function setHinweisAusstellungZweitschrift(?bool $hinweisAusstellungZweitschrift = null): self
     {
         $this->HinweisAusstellungZweitschrift = $hinweisAusstellungZweitschrift;
-        
+
         return $this;
     }
+
     /**
      * Get DatumAusstellungZweitschrift value
-     * @return string|null
      */
     public function getDatumAusstellungZweitschrift(): ?string
     {
         return $this->DatumAusstellungZweitschrift;
     }
+
     /**
      * Set DatumAusstellungZweitschrift value
-     * @param string $datumAusstellungZweitschrift
-     * @return \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp
      */
     public function setDatumAusstellungZweitschrift(?string $datumAusstellungZweitschrift = null): self
     {
         $this->DatumAusstellungZweitschrift = $datumAusstellungZweitschrift;
-        
+
         return $this;
     }
+
     /**
      * Get ZeitpunktEintragungAusserbetriebsetzungZulBeschTeil1 value
-     * @return string|null
      */
     public function getZeitpunktEintragungAusserbetriebsetzungZulBeschTeil1(): ?string
     {
         return $this->ZeitpunktEintragungAusserbetriebsetzungZulBeschTeil1;
     }
+
     /**
      * Set ZeitpunktEintragungAusserbetriebsetzungZulBeschTeil1 value
-     * @param string $zeitpunktEintragungAusserbetriebsetzungZulBeschTeil1
-     * @return \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp
      */
     public function setZeitpunktEintragungAusserbetriebsetzungZulBeschTeil1(?string $zeitpunktEintragungAusserbetriebsetzungZulBeschTeil1 = null): self
     {
         $this->ZeitpunktEintragungAusserbetriebsetzungZulBeschTeil1 = $zeitpunktEintragungAusserbetriebsetzungZulBeschTeil1;
-        
+
         return $this;
     }
+
     /**
      * Get NaechsteHauptuntersuchung value
-     * @return string|null
      */
     public function getNaechsteHauptuntersuchung(): ?string
     {
         return $this->NaechsteHauptuntersuchung;
     }
+
     /**
      * Set NaechsteHauptuntersuchung value
-     * @param string $naechsteHauptuntersuchung
-     * @return \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp
      */
     public function setNaechsteHauptuntersuchung(?string $naechsteHauptuntersuchung = null): self
     {
         $this->NaechsteHauptuntersuchung = $naechsteHauptuntersuchung;
-        
+
         return $this;
     }
+
     /**
      * Get NaechsteSicherheitspruefung value
-     * @return string|null
      */
     public function getNaechsteSicherheitspruefung(): ?string
     {
         return $this->NaechsteSicherheitspruefung;
     }
+
     /**
      * Set NaechsteSicherheitspruefung value
-     * @param string $naechsteSicherheitspruefung
-     * @return \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp
      */
     public function setNaechsteSicherheitspruefung(?string $naechsteSicherheitspruefung = null): self
     {
         $this->NaechsteSicherheitspruefung = $naechsteSicherheitspruefung;
-        
+
         return $this;
     }
+
     /**
      * Get NaechsteAbgasuntersuchung value
-     * @return string|null
      */
     public function getNaechsteAbgasuntersuchung(): ?string
     {
         return $this->NaechsteAbgasuntersuchung;
     }
+
     /**
      * Set NaechsteAbgasuntersuchung value
-     * @param string $naechsteAbgasuntersuchung
-     * @return \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp
      */
     public function setNaechsteAbgasuntersuchung(?string $naechsteAbgasuntersuchung = null): self
     {
         $this->NaechsteAbgasuntersuchung = $naechsteAbgasuntersuchung;
-        
+
         return $this;
     }
+
     /**
      * Get DruckstuecknummerZB1 value
-     * @return string|null
      */
     public function getDruckstuecknummerZB1(): ?string
     {
         return $this->DruckstuecknummerZB1;
     }
+
     /**
      * Set DruckstuecknummerZB1 value
-     * @param string $druckstuecknummerZB1
-     * @return \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp
      */
     public function setDruckstuecknummerZB1(?string $druckstuecknummerZB1 = null): self
     {
         $this->DruckstuecknummerZB1 = $druckstuecknummerZB1;
-        
+
         return $this;
     }
 }

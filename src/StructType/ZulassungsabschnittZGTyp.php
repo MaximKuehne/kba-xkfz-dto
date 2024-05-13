@@ -1,0 +1,619 @@
+<?php
+
+declare(strict_types=1);
+
+namespace THAG\XKfz\StructType;
+
+use WsdlToPhp\PackageBase\AbstractStructBase;
+
+/**
+ * This class stands for ZulassungsabschnittZGTyp StructType
+ * @subpackage Structs
+ * @date 2024-05-13
+ * @codeVersion 5.9
+ */
+#[\AllowDynamicProperties]
+class ZulassungsabschnittZGTyp extends AbstractStructBase
+{
+    /**
+     * The ZeitpunktBeendigungZulassungsabschnitt
+     * @var string|null
+     */
+    public ?string $ZeitpunktBeendigungZulassungsabschnitt = null;
+    /**
+     * The IdentifikationZulassungsabschnitt
+     * @var string|null
+     */
+    public ?string $IdentifikationZulassungsabschnitt = null;
+    /**
+     * The Arbeitsgang
+     * @var string|null
+     */
+    public ?string $Arbeitsgang = null;
+    /**
+     * The ZeitpunktAenderung
+     * @var string|null
+     */
+    public ?string $ZeitpunktAenderung = null;
+    /**
+     * The ZeitpunktVerarbeitungZFZR
+     * @var string|null
+     */
+    public ?string $ZeitpunktVerarbeitungZFZR = null;
+    /**
+     * The MerkmalStornierung
+     * @var string|null
+     */
+    public ?string $MerkmalStornierung = null;
+    /**
+     * The ZeitpunktStornierung
+     * @var string|null
+     */
+    public ?string $ZeitpunktStornierung = null;
+    /**
+     * The MerkmalFahrzeugbeschreibung
+     * @var bool|null
+     */
+    public ?bool $MerkmalFahrzeugbeschreibung = null;
+    /**
+     * The MerkmalAusserbetriebsetzung
+     * @var bool|null
+     */
+    public ?bool $MerkmalAusserbetriebsetzung = null;
+    /**
+     * The Kennzeichendaten
+     * @var \THAG\XKfz\StructType\KennzeichendatenZGTyp|null
+     */
+    public ?\THAG\XKfz\StructType\KennzeichendatenZGTyp $Kennzeichendaten = null;
+    /**
+     * The ZulassungsbescheinigungTeil1
+     * @var \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp|null
+     */
+    public ?\THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp $ZulassungsbescheinigungTeil1 = null;
+    /**
+     * The ZulassungsbescheinigungTeil2
+     * @var \THAG\XKfz\StructType\ZulassungsbescheinigungTeil2|null
+     */
+    public ?\THAG\XKfz\StructType\ZulassungsbescheinigungTeil2 $ZulassungsbescheinigungTeil2 = null;
+    /**
+     * The Fahrzeugidentifizierung
+     * @var \THAG\XKfz\StructType\Fahrzeugidentifizierung|null
+     */
+    public ?\THAG\XKfz\StructType\Fahrzeugidentifizierung $Fahrzeugidentifizierung = null;
+    /**
+     * The Fahrzeug
+     * @var \THAG\XKfz\StructType\FahrzeugZCTyp|null
+     */
+    public ?\THAG\XKfz\StructType\FahrzeugZCTyp $Fahrzeug = null;
+    /**
+     * The Fahrzeugbeschreibung
+     * @var \THAG\XKfz\StructType\FahrzeugbeschreibungZGTyp|null
+     */
+    public ?\THAG\XKfz\StructType\FahrzeugbeschreibungZGTyp $Fahrzeugbeschreibung = null;
+    /**
+     * The Halter
+     * @var \THAG\XKfz\StructType\HalterZCTyp|null
+     */
+    public ?\THAG\XKfz\StructType\HalterZCTyp $Halter = null;
+    /**
+     * The Veraeusserungsanzeige
+     * @var \THAG\XKfz\StructType\VeraeusserungsanzeigeZCTyp|null
+     */
+    public ?\THAG\XKfz\StructType\VeraeusserungsanzeigeZCTyp $Veraeusserungsanzeige = null;
+    /**
+     * The Verfuegungsberechtigter
+     * @var \THAG\XKfz\StructType\Verfuegungsberechtigter|null
+     */
+    public ?\THAG\XKfz\StructType\Verfuegungsberechtigter $Verfuegungsberechtigter = null;
+    /**
+     * The Verwertungsnachweis
+     * @var \THAG\XKfz\StructType\Verwertungsnachweis|null
+     */
+    public ?\THAG\XKfz\StructType\Verwertungsnachweis $Verwertungsnachweis = null;
+    /**
+     * The Fahrzeughinweise
+     * @var \THAG\XKfz\StructType\FahrzeughinweiseZCTyp|null
+     */
+    public ?\THAG\XKfz\StructType\FahrzeughinweiseZCTyp $Fahrzeughinweise = null;
+    /**
+     * The Versicherungsdaten
+     * @var \THAG\XKfz\StructType\VersicherungsdatenZCTyp|null
+     */
+    public ?\THAG\XKfz\StructType\VersicherungsdatenZCTyp $Versicherungsdaten = null;
+    /**
+     * The Empfangsbevollmaechtigter
+     * @var \THAG\XKfz\StructType\Empfangsbevollmaechtigter|null
+     */
+    public ?\THAG\XKfz\StructType\Empfangsbevollmaechtigter $Empfangsbevollmaechtigter = null;
+    /**
+     * Constructor method for ZulassungsabschnittZGTyp
+     * @uses ZulassungsabschnittZGTyp::setZeitpunktBeendigungZulassungsabschnitt()
+     * @uses ZulassungsabschnittZGTyp::setIdentifikationZulassungsabschnitt()
+     * @uses ZulassungsabschnittZGTyp::setArbeitsgang()
+     * @uses ZulassungsabschnittZGTyp::setZeitpunktAenderung()
+     * @uses ZulassungsabschnittZGTyp::setZeitpunktVerarbeitungZFZR()
+     * @uses ZulassungsabschnittZGTyp::setMerkmalStornierung()
+     * @uses ZulassungsabschnittZGTyp::setZeitpunktStornierung()
+     * @uses ZulassungsabschnittZGTyp::setMerkmalFahrzeugbeschreibung()
+     * @uses ZulassungsabschnittZGTyp::setMerkmalAusserbetriebsetzung()
+     * @uses ZulassungsabschnittZGTyp::setKennzeichendaten()
+     * @uses ZulassungsabschnittZGTyp::setZulassungsbescheinigungTeil1()
+     * @uses ZulassungsabschnittZGTyp::setZulassungsbescheinigungTeil2()
+     * @uses ZulassungsabschnittZGTyp::setFahrzeugidentifizierung()
+     * @uses ZulassungsabschnittZGTyp::setFahrzeug()
+     * @uses ZulassungsabschnittZGTyp::setFahrzeugbeschreibung()
+     * @uses ZulassungsabschnittZGTyp::setHalter()
+     * @uses ZulassungsabschnittZGTyp::setVeraeusserungsanzeige()
+     * @uses ZulassungsabschnittZGTyp::setVerfuegungsberechtigter()
+     * @uses ZulassungsabschnittZGTyp::setVerwertungsnachweis()
+     * @uses ZulassungsabschnittZGTyp::setFahrzeughinweise()
+     * @uses ZulassungsabschnittZGTyp::setVersicherungsdaten()
+     * @uses ZulassungsabschnittZGTyp::setEmpfangsbevollmaechtigter()
+     * @param string $zeitpunktBeendigungZulassungsabschnitt
+     * @param string $identifikationZulassungsabschnitt
+     * @param string $arbeitsgang
+     * @param string $zeitpunktAenderung
+     * @param string $zeitpunktVerarbeitungZFZR
+     * @param string $merkmalStornierung
+     * @param string $zeitpunktStornierung
+     * @param bool $merkmalFahrzeugbeschreibung
+     * @param bool $merkmalAusserbetriebsetzung
+     * @param \THAG\XKfz\StructType\KennzeichendatenZGTyp $kennzeichendaten
+     * @param \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp $zulassungsbescheinigungTeil1
+     * @param \THAG\XKfz\StructType\ZulassungsbescheinigungTeil2 $zulassungsbescheinigungTeil2
+     * @param \THAG\XKfz\StructType\Fahrzeugidentifizierung $fahrzeugidentifizierung
+     * @param \THAG\XKfz\StructType\FahrzeugZCTyp $fahrzeug
+     * @param \THAG\XKfz\StructType\FahrzeugbeschreibungZGTyp $fahrzeugbeschreibung
+     * @param \THAG\XKfz\StructType\HalterZCTyp $halter
+     * @param \THAG\XKfz\StructType\VeraeusserungsanzeigeZCTyp $veraeusserungsanzeige
+     * @param \THAG\XKfz\StructType\Verfuegungsberechtigter $verfuegungsberechtigter
+     * @param \THAG\XKfz\StructType\Verwertungsnachweis $verwertungsnachweis
+     * @param \THAG\XKfz\StructType\FahrzeughinweiseZCTyp $fahrzeughinweise
+     * @param \THAG\XKfz\StructType\VersicherungsdatenZCTyp $versicherungsdaten
+     * @param \THAG\XKfz\StructType\Empfangsbevollmaechtigter $empfangsbevollmaechtigter
+     */
+    public function __construct(?string $zeitpunktBeendigungZulassungsabschnitt = null, ?string $identifikationZulassungsabschnitt = null, ?string $arbeitsgang = null, ?string $zeitpunktAenderung = null, ?string $zeitpunktVerarbeitungZFZR = null, ?string $merkmalStornierung = null, ?string $zeitpunktStornierung = null, ?bool $merkmalFahrzeugbeschreibung = null, ?bool $merkmalAusserbetriebsetzung = null, ?\THAG\XKfz\StructType\KennzeichendatenZGTyp $kennzeichendaten = null, ?\THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp $zulassungsbescheinigungTeil1 = null, ?\THAG\XKfz\StructType\ZulassungsbescheinigungTeil2 $zulassungsbescheinigungTeil2 = null, ?\THAG\XKfz\StructType\Fahrzeugidentifizierung $fahrzeugidentifizierung = null, ?\THAG\XKfz\StructType\FahrzeugZCTyp $fahrzeug = null, ?\THAG\XKfz\StructType\FahrzeugbeschreibungZGTyp $fahrzeugbeschreibung = null, ?\THAG\XKfz\StructType\HalterZCTyp $halter = null, ?\THAG\XKfz\StructType\VeraeusserungsanzeigeZCTyp $veraeusserungsanzeige = null, ?\THAG\XKfz\StructType\Verfuegungsberechtigter $verfuegungsberechtigter = null, ?\THAG\XKfz\StructType\Verwertungsnachweis $verwertungsnachweis = null, ?\THAG\XKfz\StructType\FahrzeughinweiseZCTyp $fahrzeughinweise = null, ?\THAG\XKfz\StructType\VersicherungsdatenZCTyp $versicherungsdaten = null, ?\THAG\XKfz\StructType\Empfangsbevollmaechtigter $empfangsbevollmaechtigter = null)
+    {
+        $this
+            ->setZeitpunktBeendigungZulassungsabschnitt($zeitpunktBeendigungZulassungsabschnitt)
+            ->setIdentifikationZulassungsabschnitt($identifikationZulassungsabschnitt)
+            ->setArbeitsgang($arbeitsgang)
+            ->setZeitpunktAenderung($zeitpunktAenderung)
+            ->setZeitpunktVerarbeitungZFZR($zeitpunktVerarbeitungZFZR)
+            ->setMerkmalStornierung($merkmalStornierung)
+            ->setZeitpunktStornierung($zeitpunktStornierung)
+            ->setMerkmalFahrzeugbeschreibung($merkmalFahrzeugbeschreibung)
+            ->setMerkmalAusserbetriebsetzung($merkmalAusserbetriebsetzung)
+            ->setKennzeichendaten($kennzeichendaten)
+            ->setZulassungsbescheinigungTeil1($zulassungsbescheinigungTeil1)
+            ->setZulassungsbescheinigungTeil2($zulassungsbescheinigungTeil2)
+            ->setFahrzeugidentifizierung($fahrzeugidentifizierung)
+            ->setFahrzeug($fahrzeug)
+            ->setFahrzeugbeschreibung($fahrzeugbeschreibung)
+            ->setHalter($halter)
+            ->setVeraeusserungsanzeige($veraeusserungsanzeige)
+            ->setVerfuegungsberechtigter($verfuegungsberechtigter)
+            ->setVerwertungsnachweis($verwertungsnachweis)
+            ->setFahrzeughinweise($fahrzeughinweise)
+            ->setVersicherungsdaten($versicherungsdaten)
+            ->setEmpfangsbevollmaechtigter($empfangsbevollmaechtigter);
+    }
+    /**
+     * Get ZeitpunktBeendigungZulassungsabschnitt value
+     * @return string|null
+     */
+    public function getZeitpunktBeendigungZulassungsabschnitt(): ?string
+    {
+        return $this->ZeitpunktBeendigungZulassungsabschnitt;
+    }
+    /**
+     * Set ZeitpunktBeendigungZulassungsabschnitt value
+     * @param string $zeitpunktBeendigungZulassungsabschnitt
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setZeitpunktBeendigungZulassungsabschnitt(?string $zeitpunktBeendigungZulassungsabschnitt = null): self
+    {
+        $this->ZeitpunktBeendigungZulassungsabschnitt = $zeitpunktBeendigungZulassungsabschnitt;
+        
+        return $this;
+    }
+    /**
+     * Get IdentifikationZulassungsabschnitt value
+     * @return string|null
+     */
+    public function getIdentifikationZulassungsabschnitt(): ?string
+    {
+        return $this->IdentifikationZulassungsabschnitt;
+    }
+    /**
+     * Set IdentifikationZulassungsabschnitt value
+     * @param string $identifikationZulassungsabschnitt
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setIdentifikationZulassungsabschnitt(?string $identifikationZulassungsabschnitt = null): self
+    {
+        $this->IdentifikationZulassungsabschnitt = $identifikationZulassungsabschnitt;
+        
+        return $this;
+    }
+    /**
+     * Get Arbeitsgang value
+     * @return string|null
+     */
+    public function getArbeitsgang(): ?string
+    {
+        return $this->Arbeitsgang;
+    }
+    /**
+     * Set Arbeitsgang value
+     * @param string $arbeitsgang
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setArbeitsgang(?string $arbeitsgang = null): self
+    {
+        $this->Arbeitsgang = $arbeitsgang;
+        
+        return $this;
+    }
+    /**
+     * Get ZeitpunktAenderung value
+     * @return string|null
+     */
+    public function getZeitpunktAenderung(): ?string
+    {
+        return $this->ZeitpunktAenderung;
+    }
+    /**
+     * Set ZeitpunktAenderung value
+     * @param string $zeitpunktAenderung
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setZeitpunktAenderung(?string $zeitpunktAenderung = null): self
+    {
+        $this->ZeitpunktAenderung = $zeitpunktAenderung;
+        
+        return $this;
+    }
+    /**
+     * Get ZeitpunktVerarbeitungZFZR value
+     * @return string|null
+     */
+    public function getZeitpunktVerarbeitungZFZR(): ?string
+    {
+        return $this->ZeitpunktVerarbeitungZFZR;
+    }
+    /**
+     * Set ZeitpunktVerarbeitungZFZR value
+     * @param string $zeitpunktVerarbeitungZFZR
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setZeitpunktVerarbeitungZFZR(?string $zeitpunktVerarbeitungZFZR = null): self
+    {
+        $this->ZeitpunktVerarbeitungZFZR = $zeitpunktVerarbeitungZFZR;
+        
+        return $this;
+    }
+    /**
+     * Get MerkmalStornierung value
+     * @return string|null
+     */
+    public function getMerkmalStornierung(): ?string
+    {
+        return $this->MerkmalStornierung;
+    }
+    /**
+     * Set MerkmalStornierung value
+     * @param string $merkmalStornierung
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setMerkmalStornierung(?string $merkmalStornierung = null): self
+    {
+        $this->MerkmalStornierung = $merkmalStornierung;
+        
+        return $this;
+    }
+    /**
+     * Get ZeitpunktStornierung value
+     * @return string|null
+     */
+    public function getZeitpunktStornierung(): ?string
+    {
+        return $this->ZeitpunktStornierung;
+    }
+    /**
+     * Set ZeitpunktStornierung value
+     * @param string $zeitpunktStornierung
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setZeitpunktStornierung(?string $zeitpunktStornierung = null): self
+    {
+        $this->ZeitpunktStornierung = $zeitpunktStornierung;
+        
+        return $this;
+    }
+    /**
+     * Get MerkmalFahrzeugbeschreibung value
+     * @return bool|null
+     */
+    public function getMerkmalFahrzeugbeschreibung(): ?bool
+    {
+        return $this->MerkmalFahrzeugbeschreibung;
+    }
+    /**
+     * Set MerkmalFahrzeugbeschreibung value
+     * @param bool $merkmalFahrzeugbeschreibung
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setMerkmalFahrzeugbeschreibung(?bool $merkmalFahrzeugbeschreibung = null): self
+    {
+        $this->MerkmalFahrzeugbeschreibung = $merkmalFahrzeugbeschreibung;
+        
+        return $this;
+    }
+    /**
+     * Get MerkmalAusserbetriebsetzung value
+     * @return bool|null
+     */
+    public function getMerkmalAusserbetriebsetzung(): ?bool
+    {
+        return $this->MerkmalAusserbetriebsetzung;
+    }
+    /**
+     * Set MerkmalAusserbetriebsetzung value
+     * @param bool $merkmalAusserbetriebsetzung
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setMerkmalAusserbetriebsetzung(?bool $merkmalAusserbetriebsetzung = null): self
+    {
+        $this->MerkmalAusserbetriebsetzung = $merkmalAusserbetriebsetzung;
+        
+        return $this;
+    }
+    /**
+     * Get Kennzeichendaten value
+     * @return \THAG\XKfz\StructType\KennzeichendatenZGTyp|null
+     */
+    public function getKennzeichendaten(): ?\THAG\XKfz\StructType\KennzeichendatenZGTyp
+    {
+        return $this->Kennzeichendaten;
+    }
+    /**
+     * Set Kennzeichendaten value
+     * @param \THAG\XKfz\StructType\KennzeichendatenZGTyp $kennzeichendaten
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setKennzeichendaten(?\THAG\XKfz\StructType\KennzeichendatenZGTyp $kennzeichendaten = null): self
+    {
+        $this->Kennzeichendaten = $kennzeichendaten;
+        
+        return $this;
+    }
+    /**
+     * Get ZulassungsbescheinigungTeil1 value
+     * @return \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp|null
+     */
+    public function getZulassungsbescheinigungTeil1(): ?\THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp
+    {
+        return $this->ZulassungsbescheinigungTeil1;
+    }
+    /**
+     * Set ZulassungsbescheinigungTeil1 value
+     * @param \THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp $zulassungsbescheinigungTeil1
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setZulassungsbescheinigungTeil1(?\THAG\XKfz\StructType\ZulassungsbescheinigungTeil1ZGTyp $zulassungsbescheinigungTeil1 = null): self
+    {
+        $this->ZulassungsbescheinigungTeil1 = $zulassungsbescheinigungTeil1;
+        
+        return $this;
+    }
+    /**
+     * Get ZulassungsbescheinigungTeil2 value
+     * @return \THAG\XKfz\StructType\ZulassungsbescheinigungTeil2|null
+     */
+    public function getZulassungsbescheinigungTeil2(): ?\THAG\XKfz\StructType\ZulassungsbescheinigungTeil2
+    {
+        return $this->ZulassungsbescheinigungTeil2;
+    }
+    /**
+     * Set ZulassungsbescheinigungTeil2 value
+     * @param \THAG\XKfz\StructType\ZulassungsbescheinigungTeil2 $zulassungsbescheinigungTeil2
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setZulassungsbescheinigungTeil2(?\THAG\XKfz\StructType\ZulassungsbescheinigungTeil2 $zulassungsbescheinigungTeil2 = null): self
+    {
+        $this->ZulassungsbescheinigungTeil2 = $zulassungsbescheinigungTeil2;
+        
+        return $this;
+    }
+    /**
+     * Get Fahrzeugidentifizierung value
+     * @return \THAG\XKfz\StructType\Fahrzeugidentifizierung|null
+     */
+    public function getFahrzeugidentifizierung(): ?\THAG\XKfz\StructType\Fahrzeugidentifizierung
+    {
+        return $this->Fahrzeugidentifizierung;
+    }
+    /**
+     * Set Fahrzeugidentifizierung value
+     * @param \THAG\XKfz\StructType\Fahrzeugidentifizierung $fahrzeugidentifizierung
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setFahrzeugidentifizierung(?\THAG\XKfz\StructType\Fahrzeugidentifizierung $fahrzeugidentifizierung = null): self
+    {
+        $this->Fahrzeugidentifizierung = $fahrzeugidentifizierung;
+        
+        return $this;
+    }
+    /**
+     * Get Fahrzeug value
+     * @return \THAG\XKfz\StructType\FahrzeugZCTyp|null
+     */
+    public function getFahrzeug(): ?\THAG\XKfz\StructType\FahrzeugZCTyp
+    {
+        return $this->Fahrzeug;
+    }
+    /**
+     * Set Fahrzeug value
+     * @param \THAG\XKfz\StructType\FahrzeugZCTyp $fahrzeug
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setFahrzeug(?\THAG\XKfz\StructType\FahrzeugZCTyp $fahrzeug = null): self
+    {
+        $this->Fahrzeug = $fahrzeug;
+        
+        return $this;
+    }
+    /**
+     * Get Fahrzeugbeschreibung value
+     * @return \THAG\XKfz\StructType\FahrzeugbeschreibungZGTyp|null
+     */
+    public function getFahrzeugbeschreibung(): ?\THAG\XKfz\StructType\FahrzeugbeschreibungZGTyp
+    {
+        return $this->Fahrzeugbeschreibung;
+    }
+    /**
+     * Set Fahrzeugbeschreibung value
+     * @param \THAG\XKfz\StructType\FahrzeugbeschreibungZGTyp $fahrzeugbeschreibung
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setFahrzeugbeschreibung(?\THAG\XKfz\StructType\FahrzeugbeschreibungZGTyp $fahrzeugbeschreibung = null): self
+    {
+        $this->Fahrzeugbeschreibung = $fahrzeugbeschreibung;
+        
+        return $this;
+    }
+    /**
+     * Get Halter value
+     * @return \THAG\XKfz\StructType\HalterZCTyp|null
+     */
+    public function getHalter(): ?\THAG\XKfz\StructType\HalterZCTyp
+    {
+        return $this->Halter;
+    }
+    /**
+     * Set Halter value
+     * @param \THAG\XKfz\StructType\HalterZCTyp $halter
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setHalter(?\THAG\XKfz\StructType\HalterZCTyp $halter = null): self
+    {
+        $this->Halter = $halter;
+        
+        return $this;
+    }
+    /**
+     * Get Veraeusserungsanzeige value
+     * @return \THAG\XKfz\StructType\VeraeusserungsanzeigeZCTyp|null
+     */
+    public function getVeraeusserungsanzeige(): ?\THAG\XKfz\StructType\VeraeusserungsanzeigeZCTyp
+    {
+        return $this->Veraeusserungsanzeige;
+    }
+    /**
+     * Set Veraeusserungsanzeige value
+     * @param \THAG\XKfz\StructType\VeraeusserungsanzeigeZCTyp $veraeusserungsanzeige
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setVeraeusserungsanzeige(?\THAG\XKfz\StructType\VeraeusserungsanzeigeZCTyp $veraeusserungsanzeige = null): self
+    {
+        $this->Veraeusserungsanzeige = $veraeusserungsanzeige;
+        
+        return $this;
+    }
+    /**
+     * Get Verfuegungsberechtigter value
+     * @return \THAG\XKfz\StructType\Verfuegungsberechtigter|null
+     */
+    public function getVerfuegungsberechtigter(): ?\THAG\XKfz\StructType\Verfuegungsberechtigter
+    {
+        return $this->Verfuegungsberechtigter;
+    }
+    /**
+     * Set Verfuegungsberechtigter value
+     * @param \THAG\XKfz\StructType\Verfuegungsberechtigter $verfuegungsberechtigter
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setVerfuegungsberechtigter(?\THAG\XKfz\StructType\Verfuegungsberechtigter $verfuegungsberechtigter = null): self
+    {
+        $this->Verfuegungsberechtigter = $verfuegungsberechtigter;
+        
+        return $this;
+    }
+    /**
+     * Get Verwertungsnachweis value
+     * @return \THAG\XKfz\StructType\Verwertungsnachweis|null
+     */
+    public function getVerwertungsnachweis(): ?\THAG\XKfz\StructType\Verwertungsnachweis
+    {
+        return $this->Verwertungsnachweis;
+    }
+    /**
+     * Set Verwertungsnachweis value
+     * @param \THAG\XKfz\StructType\Verwertungsnachweis $verwertungsnachweis
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setVerwertungsnachweis(?\THAG\XKfz\StructType\Verwertungsnachweis $verwertungsnachweis = null): self
+    {
+        $this->Verwertungsnachweis = $verwertungsnachweis;
+        
+        return $this;
+    }
+    /**
+     * Get Fahrzeughinweise value
+     * @return \THAG\XKfz\StructType\FahrzeughinweiseZCTyp|null
+     */
+    public function getFahrzeughinweise(): ?\THAG\XKfz\StructType\FahrzeughinweiseZCTyp
+    {
+        return $this->Fahrzeughinweise;
+    }
+    /**
+     * Set Fahrzeughinweise value
+     * @param \THAG\XKfz\StructType\FahrzeughinweiseZCTyp $fahrzeughinweise
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setFahrzeughinweise(?\THAG\XKfz\StructType\FahrzeughinweiseZCTyp $fahrzeughinweise = null): self
+    {
+        $this->Fahrzeughinweise = $fahrzeughinweise;
+        
+        return $this;
+    }
+    /**
+     * Get Versicherungsdaten value
+     * @return \THAG\XKfz\StructType\VersicherungsdatenZCTyp|null
+     */
+    public function getVersicherungsdaten(): ?\THAG\XKfz\StructType\VersicherungsdatenZCTyp
+    {
+        return $this->Versicherungsdaten;
+    }
+    /**
+     * Set Versicherungsdaten value
+     * @param \THAG\XKfz\StructType\VersicherungsdatenZCTyp $versicherungsdaten
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setVersicherungsdaten(?\THAG\XKfz\StructType\VersicherungsdatenZCTyp $versicherungsdaten = null): self
+    {
+        $this->Versicherungsdaten = $versicherungsdaten;
+        
+        return $this;
+    }
+    /**
+     * Get Empfangsbevollmaechtigter value
+     * @return \THAG\XKfz\StructType\Empfangsbevollmaechtigter|null
+     */
+    public function getEmpfangsbevollmaechtigter(): ?\THAG\XKfz\StructType\Empfangsbevollmaechtigter
+    {
+        return $this->Empfangsbevollmaechtigter;
+    }
+    /**
+     * Set Empfangsbevollmaechtigter value
+     * @param \THAG\XKfz\StructType\Empfangsbevollmaechtigter $empfangsbevollmaechtigter
+     * @return \THAG\XKfz\StructType\ZulassungsabschnittZGTyp
+     */
+    public function setEmpfangsbevollmaechtigter(?\THAG\XKfz\StructType\Empfangsbevollmaechtigter $empfangsbevollmaechtigter = null): self
+    {
+        $this->Empfangsbevollmaechtigter = $empfangsbevollmaechtigter;
+        
+        return $this;
+    }
+}
